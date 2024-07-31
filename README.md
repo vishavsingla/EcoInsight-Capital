@@ -1,4 +1,4 @@
-<body>
+
 
     <h1>SustainInvest Pro</h1>
 
@@ -80,4 +80,3 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate</pre>
     <div class="footer">
         <p>© 2024 Sustainable Investing Management. All rights reserved.</p>
     </div>
-</body>
