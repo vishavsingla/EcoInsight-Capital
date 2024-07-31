@@ -1,7 +1,7 @@
 import streamlit as st
 
 def show_landing_page():
-    st.title("Sustainable Investing Management")
+    st.title("Sustainable Investing Management", anchor=False)
 
     st.header("Welcome to Your Sustainable Investing Dashboard")
     st.write("""
@@ -24,11 +24,14 @@ def show_landing_page():
     Stay ahead of regulatory requirements by investing in companies that comply with environmental, social, and governance (ESG) standards.
     """)
 
-    if st.button("Companies Seeking Sustainability Goals"):
-        show_company_page()
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("Companies Seeking Sustainability Goals"):
+            show_company_page()
 
-    if st.button("Investors Looking for Sustainable Options"):
-        show_investor_page()
+    with col2:
+        if st.button("Investors Looking for Sustainable Options"):
+            show_investor_page()
 
     st.markdown("---")
     st.write("© 2024 Sustainable Investing Management. All rights reserved.")

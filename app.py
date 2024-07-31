@@ -5,6 +5,38 @@ from app_esg import show_esg_page
 from chatbot import show_chatbot_page
 from article_suggestion import show_article_suggestions_page
 from app_stock_price_prediction import show_stock_price_prediction_page
+
+# Set up the main configuration
+st.set_page_config(page_title="Sustainable Investing Management", layout="wide")
+
+# Custom CSS for better styling
+st.markdown("""
+    <style>
+        .sidebar .sidebar-content {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .sidebar .sidebar-content .block-container {
+            padding: 20px;
+        }
+        .sidebar .sidebar-content .stButton button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .stTitle {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .stHeader {
+            color: #34495e;
+        }
+        .stText {
+            color: #2c3e50;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Sidebar navigation
 st.sidebar.title("Navigation")
 pages = ["Landing Page", "Stock Prediction", "Stock Price Prediction", "ESG Data", "Chatbot", "Article Suggestions"]
