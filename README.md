@@ -1,6 +1,6 @@
-# EcoInsight-Capital
+# SustainPlus
 
-**EcoInsight-Capital** is a comprehensive app designed to help investors make informed decisions based on sustainability and ESG (Environmental, Social, and Governance) metrics. The app provides insights and recommendations for investments that prioritize sustainable practices and helps companies improve their ESG scores.
+**SustainPlus** is a comprehensive app designed to help investors make informed decisions based on sustainability and ESG (Environmental, Social, and Governance) metrics. The app provides insights and recommendations for investments that prioritize sustainable practices and helps companies improve their ESG scores.
 
 ## Features
 
